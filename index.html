@@ -12,6 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GPay UI Clone</title>
 
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="./public/css/main.css" />
   </head>
@@ -44,7 +50,7 @@
                 class="flex flex-1 items-center bg-neutral-700 px-2 py-3 rounded-full"
               >
                 <!-- Search icon SVG -->
-                <div class="text-white pl-2 hover:cursor-pointer">
+                <div class="text-white pl-2 hover:cursor-pointer" title="Click to Search">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
@@ -67,13 +73,30 @@
               </div>
 
               <!-- Profile image -->
-              <div class="hover:cursor-pointer" title="Go to Profile">
+              <div class="transition 500 hover:-translate-y-1 hover:cursor-pointer " title="Go to Profile">
                 <img
                   src="https://scontent.fcmb12-1.fna.fbcdn.net/v/t39.30808-6/357695442_658152449513309_696202696125888667_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeF0Rx6yu6EOmC4yeWDX5eOAV80Sq_P2mR1XzRKr8_aZHcKeJB_oif4jEMk151cR7oBGCEUsRLfHkiWgpgkRZmKW&_nc_ohc=yuoSfnphnJQAX-tbeMN&_nc_zt=23&_nc_ht=scontent.fcmb12-1.fna&oh=00_AfClhe2FoBkbooOixtGswWviXeOCRwYkM1nOvCSCI5UX1w&oe=6525D67F"
                   alt="MUshkir Profile"
                   class="w-8 h-8 object-cover rounded-full"
                 />
               </div>
+
+              <!-- GitHub Link -->
+              <a href="https://github.com/Mushkir/gpay-ui-clone" target="_blank" class="transition 500 hover:-translate-y-1 hover:cursor-pointer ">
+                <div class="text-white" title="Go to GitHub Repo">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </div>
+              </a>
             </div>
             <!-- End of Google pay Background Area-->
           </div>
@@ -290,9 +313,11 @@
           <span class="text-white font-semibold px-5">People</span>
 
           <!-- People profile -->
-          <div class="grid grid-cols-4">
+          <div class="grid grid-cols-4 px-5">
             <!-- Anbuselven -->
-            <div class="mx-auto">
+            <div
+              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
               <!-- Profile picture -->
               <div class="flex justify-center">
                 <div class="relative w-11 h-11 pt-1">
@@ -316,7 +341,9 @@
             </div>
 
             <!-- Lokesh -->
-            <div class="mx-auto">
+            <div
+              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
               <!-- Profile picture -->
               <div class="flex justify-center">
                 <div class="relative w-11 h-11 pt-1">
@@ -335,7 +362,9 @@
             </div>
 
             <!-- Actor vijay -->
-            <div class="mx-auto text-center">
+            <div
+              class="mx-auto text-center transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
               <!-- Profile picture -->
               <div class="flex justify-center">
                 <div class="relative w-11 h-11 pt-1">
@@ -354,7 +383,9 @@
             </div>
 
             <!-- John Dhurairaj -->
-            <div class="mx-auto">
+            <div
+              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
               <!-- Profile picture -->
               <div class="flex justify-center">
                 <div class="relative w-11 h-11 pt-1">
@@ -371,9 +402,115 @@
                 >John Dhurairaj</span
               >
             </div>
+
+            <!-- Trisha -->
+            <div
+              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
+              <!-- Profile picture -->
+              <div class="flex justify-center">
+                <div class="relative w-11 h-11 pt-1">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Tisha_Krishnan_at_PS1_pre_release_event_%281%29.jpg"
+                    class="w-10 h-10 object-cover rounded-full mx-auto"
+                    alt="Trisha"
+                  />
+                </div>
+              </div>
+
+              <!-- Profile name -->
+              <span class="text-white text-xs font-semibold text-center"
+                >Trisha Krishnan</span
+              >
+            </div>
+
+            <!-- Samantha -->
+            <div
+              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
+              <!-- Profile picture -->
+              <div class="flex justify-center">
+                <div class="relative w-11 h-11 pt-1">
+                  <img
+                    src="https://m.economictimes.com/thumb/msid-95819207,width-1599,height-1066,resizemode-4,imgsize-30466/samantha-sridevi-movies-yashoda-movie-releasing-on-november-11th-2022.jpg"
+                    class="w-10 h-10 object-cover rounded-full mx-auto"
+                    alt="Samantha"
+                  />
+                </div>
+              </div>
+
+              <!-- Profile name -->
+              <span class="text-white text-xs font-semibold text-center"
+                >Samantha</span
+              >
+            </div>
+
+            <!-- Vadivelu -->
+            <div
+              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
+              <!-- Profile picture -->
+              <div class="flex justify-center">
+                <div class="relative w-11 h-11 pt-1">
+                  <img
+                    src="https://static.toiimg.com/photo/msid-76976026/76976026.jpg"
+                    class="w-10 h-10 object-cover rounded-full mx-auto"
+                    alt="Vadivelu"
+                  />
+
+                  <!-- Right side top corner round shape -->
+                  <div
+                    class="bg-sky-300 w-2 h-2 rounded-full absolute top-0 right-0"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Profile name -->
+              <span class="text-white text-xs font-semibold text-center"
+                >Vadivelu</span
+              >
+            </div>
+
+            <!-- More -->
+            <div
+              class="mx-auto mt-5 text-center transition 500 hover:cursor-pointer hover:-translate-y-1"
+            >
+              <!-- Profile picture -->
+              <div class="flex justify-center">
+                <div
+                  class="relative w-11 h-11 border rounded-full border-sky-300 pt-1 text-sky-300 flex justify-center items-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Profile name -->
+              <span class="text-white text-xs font-semibold text-center"
+                >More</span
+              >
+            </div>
           </div>
         </div>
+
+        <!-- Business -->
+        <div class="mt-10 flex items-center justify-between px-5">
+          <span class="text-white font-semibold">Businesses</span>
+          <button class="text-white bg-blue-800 px-3 py-1.5 w-32 rounded-full">
+            <i class="fa-solid fa-bag-shopping"></i> &nbsp; Explore
+          </button>
+        </div>
       </div>
+      <!-- End of Right side -->
     </div>
   </body>
 </html>
