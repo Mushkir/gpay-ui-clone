@@ -1,517 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <!-- GPay Logo -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="https://static.vecteezy.com/system/resources/thumbnails/017/221/784/small_2x/google-pay-logo-transparent-free-png.png"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GPay UI Clone</title>
+<head>
+  <meta charset="UTF-8" />
 
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+  <!-- GPay Logo -->
+  <link rel="icon" type="image/svg+xml"
+    href="https://static.vecteezy.com/system/resources/thumbnails/017/221/784/small_2x/google-pay-logo-transparent-free-png.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPay UI Clone</title>
 
-    <!-- Dist CSS -->
-    <link rel="stylesheet" href="./dist/assets/index-673e1b87.css">
-    <!-- <link rel="stylesheet" href="./public/css/main.css"> -->
-  </head>
-  <body class="bg-black">
-    <!-- Full Container -->
-    <div class="container flex gap-1 h-screen">
-      <!-- Left Side -->
-      <div class="w-3/5 h-screen bg-white px-3">
-        <div class="flex h-56 mt-36 justify-center items-center">
-          <img
-            src="https://logohistory.net/wp-content/uploads/2023/08/Google-Pay-Logo.jpg"
-            alt="Google Pay Logo"
-            class="object-cover w-96"
-          />
-        </div>
-      </div>
-      <!-- End of Left side -->
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-      <!-- Right side -->
-      <div class="h-screen w-2/5">
-        <!-- Google Pay Background -->
-        <div
-          class="w-full h-2/5 bg-cover bg-no-repeat bg-center"
-          style="background-image: url(./public/img/gpay-hero-banner.jpg)"
-        >
-          <div class="px-5 pt-3">
-            <!-- Search icon and search bar -->
-            <div class="flex items-center space-x-2">
-              <div
-                class="flex flex-1 items-center bg-neutral-700 px-2 py-3 rounded-full"
-              >
-                <!-- Search icon SVG -->
-                <div class="text-white pl-2 hover:cursor-pointer" title="Click to Search">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
-                    />
-                  </svg>
-                </div>
+  <!-- Dist CSS -->
+  <link rel="stylesheet" href="./dist/assets/index-9b2200e2.css">
+  <!-- <link rel="stylesheet" href="./public/css/main.css"> -->
+</head>
 
-                <!-- Input box for search -->
-                <input
-                  type="text"
-                  placeholder="Pay by name or phone number"
-                  class="w-full bg-transparent text-white pl-3"
-                />
+<body class="bg-black">
+  <!-- Full Container -->
+  <div class="container flex h-screen bg-gray-700 justify-center">
+    <!-- Wrapper -->
+    <div class="h-screen w-2/5 bg-black">
+      <!-- Google Pay Background -->
+      <div class="w-full h-2/5 bg-cover bg-no-repeat bg-center"
+        style="background-image: url(./public/img/gpay-hero-banner.jpg)">
+        <div class="px-5 pt-3">
+          <!-- Search icon and search bar -->
+          <div class="flex items-center space-x-2">
+            <div class="flex flex-1 items-center bg-neutral-700 px-2 py-3 rounded-full">
+              <!-- Search icon SVG -->
+              <div class="text-white pl-2 hover:cursor-pointer" title="Click to Search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z" />
+                </svg>
               </div>
 
-              <!-- Profile image -->
-              <div class="transition 500 hover:-translate-y-1 hover:cursor-pointer " title="Go to Profile">
-                <img
-                  src="https://scontent.fcmb12-1.fna.fbcdn.net/v/t39.30808-6/357695442_658152449513309_696202696125888667_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeF0Rx6yu6EOmC4yeWDX5eOAV80Sq_P2mR1XzRKr8_aZHcKeJB_oif4jEMk151cR7oBGCEUsRLfHkiWgpgkRZmKW&_nc_ohc=yuoSfnphnJQAX-tbeMN&_nc_zt=23&_nc_ht=scontent.fcmb12-1.fna&oh=00_AfClhe2FoBkbooOixtGswWviXeOCRwYkM1nOvCSCI5UX1w&oe=6525D67F"
-                  alt="MUshkir Profile"
-                  class="w-8 h-8 object-cover rounded-full"
-                />
+              <!-- Input box for search -->
+              <input type="text" placeholder="Pay by name or phone number"
+                class="w-full bg-transparent text-white pl-3 border-0 outline-0"/>
+            </div>
+
+            <!-- Profile image -->
+            <div class="transition 500 hover:-translate-y-1 hover:cursor-pointer " title="Go to Profile">
+              <img
+                src="https://media.licdn.com/dms/image/D5603AQEdhjxk_-cHlQ/profile-displayphoto-shrink_800_800/0/1679772281930?e=2147483647&v=beta&t=iYsEtK_neO18c5yqnh7JatRov9piAboTcyD-ncmZT-U"
+                alt="MUshkir Profile" class="w-8 h-8 object-cover rounded-full" />
+            </div>
+
+            <!-- GitHub Link -->
+            <a href="https://github.com/Mushkir/gpay-ui-clone" target="_blank"
+              class="transition 500 hover:-translate-y-1 hover:cursor-pointer ">
+              <div class="text-white" title="Go to GitHub Repo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                  <path fill="currentColor"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg>
               </div>
-
-              <!-- GitHub Link -->
-              <a href="https://github.com/Mushkir/gpay-ui-clone" target="_blank" class="transition 500 hover:-translate-y-1 hover:cursor-pointer ">
-                <div class="text-white" title="Go to GitHub Repo">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                    />
-                  </svg>
-                </div>
-              </a>
-            </div>
-            <!-- End of Google pay Background Area-->
+            </a>
           </div>
-        </div>
-        <!-- End of Right side -->
-
-        <!-- GPay icons -->
-        <div class="grid grid-cols-4 text-center pt-6 px-5">
-          <!-- Scan any QR code -->
-          <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold"
-              >Scan any QR code</span
-            >
-          </div>
-
-          <!-- Pay contacts -->
-          <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 256 256"
-                class="mx-auto"
-              >
-                <g fill="currentColor">
-                  <path
-                    d="M208 32H64a8 8 0 0 0-8 8v176a8 8 0 0 0 8 8h144a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8Zm-72 112a32 32 0 1 1 32-32a32 32 0 0 1-32 32Z"
-                    opacity=".2"
-                  />
-                  <path
-                    d="M83.19 174.4a8 8 0 0 0 11.21-1.6a52 52 0 0 1 83.2 0a8 8 0 1 0 12.8-9.6a67.88 67.88 0 0 0-27.4-21.69a40 40 0 1 0-53.94 0A67.88 67.88 0 0 0 81.6 163.2a8 8 0 0 0 1.59 11.2ZM112 112a24 24 0 1 1 24 24a24 24 0 0 1-24-24Zm96-88H64a16 16 0 0 0-16 16v24H32a8 8 0 0 0 0 16h16v40H32a8 8 0 0 0 0 16h16v40H32a8 8 0 0 0 0 16h16v24a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V40a16 16 0 0 0-16-16Zm0 192H64V40h144Z"
-                  />
-                </g>
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold">Pay contacts</span>
-          </div>
-
-          <!-- Pay phone number -->
-          <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 15 15"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  fill-rule="evenodd"
-                  d="M4.5 1a.5.5 0 0 0 0 1H12v11H4.5a.5.5 0 0 0 0 1H12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4.5Zm2.104 3.896a.5.5 0 1 0-.708.708L7.293 7H.5a.5.5 0 0 0 0 1h6.793L5.896 9.396a.5.5 0 0 0 .708.708l2.25-2.25a.5.5 0 0 0 0-.708l-2.25-2.25Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold"
-              >Pay phone number</span
-            >
-          </div>
-
-          <!-- Bank transfer -->
-          <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  d="M19.505 17.943v-7.581a1.491 1.491 0 0 0 1.39-1.12a1.468 1.468 0 0 0-.7-1.68l-7.45-4.3a1.521 1.521 0 0 0-1.49 0l-7.45 4.3a1.468 1.468 0 0 0-.7 1.68a1.487 1.487 0 0 0 1.45 1.12h.13v7.57h-.12a1.5 1.5 0 0 0 0 3h14.87a1.5 1.5 0 0 0 .07-2.989ZM4.555 9.362a.505.505 0 0 1-.25-.94l7.45-4.289a.474.474 0 0 1 .49 0L19.7 8.422a.5.5 0 0 1-.25.94Zm13.95 1v7.57H14.9v-7.57Zm-4.61 0v7.57h-3.61v-7.57Zm-4.61 0v7.57h-3.6v-7.57Zm10.15 9.57H4.565a.5.5 0 0 1-.5-.5a.5.5 0 0 1 .5-.5h14.87a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5Z"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold">Bank transfer</span>
-          </div>
-
-          <!-- Pay UPI ID or number -->
-          <div
-            class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6"
-          >
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 20 20"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  fill-rule="evenodd"
-                  d="M5.404 14.596A6.5 6.5 0 1 1 16.5 10a1.25 1.25 0 0 1-2.5 0a4 4 0 1 0-.571 2.06A2.75 2.75 0 0 0 18 10a8 8 0 1 0-2.343 5.657a.75.75 0 0 0-1.06-1.06a6.5 6.5 0 0 1-9.193 0ZM10 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold">
-              Pay UPI ID or number</span
-            >
-          </div>
-
-          <!-- Self transfer -->
-          <div
-            class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6"
-          >
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  d="M18 16h-4v2h4v2l3-3l-3-3v2M11 4C8.8 4 7 5.8 7 8s1.8 4 4 4s4-1.8 4-4s-1.8-4-4-4m0 10c-4.4 0-8 1.8-8 4v2h9.5c-.3-.8-.5-1.6-.5-2.5c0-1.2.3-2.3.9-3.4c-.6 0-1.2-.1-1.9-.1"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold"> Self transfer</span>
-          </div>
-
-          <!-- Pay bills -->
-          <div
-            class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6"
-          >
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  d="M9.5 10.5H12a1 1 0 0 0 0-2h-1V8a1 1 0 0 0-2 0v.55a2.5 2.5 0 0 0 .5 4.95h1a.5.5 0 0 1 0 1H8a1 1 0 0 0 0 2h1v.5a1 1 0 0 0 2 0v-.55a2.5 2.5 0 0 0-.5-4.95h-1a.5.5 0 0 1 0-1ZM21 12h-3V3a1 1 0 0 0-.5-.87a1 1 0 0 0-1 0l-3 1.72l-3-1.72a1 1 0 0 0-1 0l-3 1.72l-3-1.72a1 1 0 0 0-1 0A1 1 0 0 0 2 3v16a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1ZM5 20a1 1 0 0 1-1-1V4.73l2 1.14a1.08 1.08 0 0 0 1 0l3-1.72l3 1.72a1.08 1.08 0 0 0 1 0l2-1.14V19a3 3 0 0 0 .18 1Zm15-1a1 1 0 0 1-2 0v-5h2Z"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold">Pay bills</span>
-          </div>
-
-          <!-- Mobile recharge -->
-          <div
-            class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6"
-          >
-            <!-- Icon -->
-            <div class="text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                class="mx-auto"
-              >
-                <path
-                  fill="currentColor"
-                  d="m14.5 11l-3 6v-4h-2l3-6v4h2zM17 3H7v1h10V3m0 17H7v1h10v-1m0-19c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h10zM7 18h10V6H7v12z"
-                />
-              </svg>
-            </div>
-            <!-- Icon Text -->
-            <span class="text-white text-xs font-semibold"
-              >Mobile recharge</span
-            >
-          </div>
-        </div>
-        <!-- End of GPay icons -->
-
-        <!-- UPI ID -->
-        <div class="flex justify-center mt-6">
-          <span
-            class="text-white text-xs font-semibold bg-neutral-700 px-4 py-2 rounded-full transition 500 hover:cursor-pointer hover:bg-black"
-            >UPI ID: mushkirmohamed9611@oksbi</span
-          >
-        </div>
-
-        <!-- People division -->
-        <div class="space-y-4 mt-5">
-          <span class="text-white font-semibold px-5">People</span>
-
-          <!-- People profile -->
-          <div class="grid grid-cols-4 px-5">
-            <!-- Anbuselven -->
-            <div
-              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://avatars.githubusercontent.com/u/15264938?v=4"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Anbu"
-                  />
-
-                  <!-- Right side top corner round shape -->
-                  <div
-                    class="bg-sky-300 w-2 h-2 rounded-full absolute top-0 right-0"
-                  ></div>
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Anbuselven</span
-              >
-            </div>
-
-            <!-- Lokesh -->
-            <div
-              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://pbs.twimg.com/profile_images/1638896466482831360/DWhvPS9A_400x400.jpg"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Lokesh"
-                  />
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Lokesh Kanagaraj</span
-              >
-            </div>
-
-            <!-- Actor vijay -->
-            <div
-              class="mx-auto text-center transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://m.media-amazon.com/images/M/MV5BZWJlODhlMzctOTU0Yi00MTUwLTkxODYtMDNjNTQxYTI2YTE1XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_.jpg"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Actor Vijay"
-                  />
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Vijay</span
-              >
-            </div>
-
-            <!-- John Dhurairaj -->
-            <div
-              class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://ui-avatars.com/api/?name=John+Doe"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="John Dhurairaj"
-                  />
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >John Dhurairaj</span
-              >
-            </div>
-
-            <!-- Trisha -->
-            <div
-              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Tisha_Krishnan_at_PS1_pre_release_event_%281%29.jpg"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Trisha"
-                  />
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Trisha Krishnan</span
-              >
-            </div>
-
-            <!-- Samantha -->
-            <div
-              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://m.economictimes.com/thumb/msid-95819207,width-1599,height-1066,resizemode-4,imgsize-30466/samantha-sridevi-movies-yashoda-movie-releasing-on-november-11th-2022.jpg"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Samantha"
-                  />
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Samantha</span
-              >
-            </div>
-
-            <!-- Vadivelu -->
-            <div
-              class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div class="relative w-11 h-11 pt-1">
-                  <img
-                    src="https://static.toiimg.com/photo/msid-76976026/76976026.jpg"
-                    class="w-10 h-10 object-cover rounded-full mx-auto"
-                    alt="Vadivelu"
-                  />
-
-                  <!-- Right side top corner round shape -->
-                  <div
-                    class="bg-sky-300 w-2 h-2 rounded-full absolute top-0 right-0"
-                  ></div>
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >Vadivelu</span
-              >
-            </div>
-
-            <!-- More -->
-            <div
-              class="mx-auto mt-5 text-center transition 500 hover:cursor-pointer hover:-translate-y-1"
-            >
-              <!-- Profile picture -->
-              <div class="flex justify-center">
-                <div
-                  class="relative w-11 h-11 border rounded-full border-sky-300 pt-1 text-sky-300 flex justify-center items-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"
-                    />
-                  </svg>
-                </div>
-              </div>
-
-              <!-- Profile name -->
-              <span class="text-white text-xs font-semibold text-center"
-                >More</span
-              >
-            </div>
-          </div>
-        </div>
-
-        <!-- Business -->
-        <div class="mt-10 flex items-center justify-between px-5 pb-8">
-          <span class="text-white font-semibold">Businesses</span>
-          <button class="text-white bg-blue-800 px-3 py-1.5 w-32 rounded-full">
-            <i class="fa-solid fa-bag-shopping"></i> &nbsp; Explore
-          </button>
+          <!-- End of Google pay Background Area-->
         </div>
       </div>
       <!-- End of Right side -->
+
+      <!-- GPay icons -->
+      <div class="grid grid-cols-4 text-center pt-6 px-5">
+        <!-- Scan any QR code -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="mx-auto">
+              <path fill="currentColor"
+                d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Scan any QR code</span>
+        </div>
+
+        <!-- Pay contacts -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" class="mx-auto">
+              <g fill="currentColor">
+                <path
+                  d="M208 32H64a8 8 0 0 0-8 8v176a8 8 0 0 0 8 8h144a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8Zm-72 112a32 32 0 1 1 32-32a32 32 0 0 1-32 32Z"
+                  opacity=".2" />
+                <path
+                  d="M83.19 174.4a8 8 0 0 0 11.21-1.6a52 52 0 0 1 83.2 0a8 8 0 1 0 12.8-9.6a67.88 67.88 0 0 0-27.4-21.69a40 40 0 1 0-53.94 0A67.88 67.88 0 0 0 81.6 163.2a8 8 0 0 0 1.59 11.2ZM112 112a24 24 0 1 1 24 24a24 24 0 0 1-24-24Zm96-88H64a16 16 0 0 0-16 16v24H32a8 8 0 0 0 0 16h16v40H32a8 8 0 0 0 0 16h16v40H32a8 8 0 0 0 0 16h16v24a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V40a16 16 0 0 0-16-16Zm0 192H64V40h144Z" />
+              </g>
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Pay contacts</span>
+        </div>
+
+        <!-- Pay phone number -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 15 15" class="mx-auto">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M4.5 1a.5.5 0 0 0 0 1H12v11H4.5a.5.5 0 0 0 0 1H12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4.5Zm2.104 3.896a.5.5 0 1 0-.708.708L7.293 7H.5a.5.5 0 0 0 0 1h6.793L5.896 9.396a.5.5 0 0 0 .708.708l2.25-2.25a.5.5 0 0 0 0-.708l-2.25-2.25Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Pay phone number</span>
+        </div>
+
+        <!-- Bank transfer -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="mx-auto">
+              <path fill="currentColor"
+                d="M19.505 17.943v-7.581a1.491 1.491 0 0 0 1.39-1.12a1.468 1.468 0 0 0-.7-1.68l-7.45-4.3a1.521 1.521 0 0 0-1.49 0l-7.45 4.3a1.468 1.468 0 0 0-.7 1.68a1.487 1.487 0 0 0 1.45 1.12h.13v7.57h-.12a1.5 1.5 0 0 0 0 3h14.87a1.5 1.5 0 0 0 .07-2.989ZM4.555 9.362a.505.505 0 0 1-.25-.94l7.45-4.289a.474.474 0 0 1 .49 0L19.7 8.422a.5.5 0 0 1-.25.94Zm13.95 1v7.57H14.9v-7.57Zm-4.61 0v7.57h-3.61v-7.57Zm-4.61 0v7.57h-3.6v-7.57Zm10.15 9.57H4.565a.5.5 0 0 1-.5-.5a.5.5 0 0 1 .5-.5h14.87a.5.5 0 0 1 .5.5a.5.5 0 0 1-.5.5Z" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Bank transfer</span>
+        </div>
+
+        <!-- Pay UPI ID or number -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20" class="mx-auto">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M5.404 14.596A6.5 6.5 0 1 1 16.5 10a1.25 1.25 0 0 1-2.5 0a4 4 0 1 0-.571 2.06A2.75 2.75 0 0 0 18 10a8 8 0 1 0-2.343 5.657a.75.75 0 0 0-1.06-1.06a6.5 6.5 0 0 1-9.193 0ZM10 7.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5Z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">
+            Pay UPI ID or number</span>
+        </div>
+
+        <!-- Self transfer -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="mx-auto">
+              <path fill="currentColor"
+                d="M18 16h-4v2h4v2l3-3l-3-3v2M11 4C8.8 4 7 5.8 7 8s1.8 4 4 4s4-1.8 4-4s-1.8-4-4-4m0 10c-4.4 0-8 1.8-8 4v2h9.5c-.3-.8-.5-1.6-.5-2.5c0-1.2.3-2.3.9-3.4c-.6 0-1.2-.1-1.9-.1" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold"> Self transfer</span>
+        </div>
+
+        <!-- Pay bills -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="mx-auto">
+              <path fill="currentColor"
+                d="M9.5 10.5H12a1 1 0 0 0 0-2h-1V8a1 1 0 0 0-2 0v.55a2.5 2.5 0 0 0 .5 4.95h1a.5.5 0 0 1 0 1H8a1 1 0 0 0 0 2h1v.5a1 1 0 0 0 2 0v-.55a2.5 2.5 0 0 0-.5-4.95h-1a.5.5 0 0 1 0-1ZM21 12h-3V3a1 1 0 0 0-.5-.87a1 1 0 0 0-1 0l-3 1.72l-3-1.72a1 1 0 0 0-1 0l-3 1.72l-3-1.72a1 1 0 0 0-1 0A1 1 0 0 0 2 3v16a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1ZM5 20a1 1 0 0 1-1-1V4.73l2 1.14a1.08 1.08 0 0 0 1 0l3-1.72l3 1.72a1.08 1.08 0 0 0 1 0l2-1.14V19a3 3 0 0 0 .18 1Zm15-1a1 1 0 0 1-2 0v-5h2Z" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Pay bills</span>
+        </div>
+
+        <!-- Mobile recharge -->
+        <div class="transition 500 hover:cursor-pointer hover:-translate-y-1 mt-6">
+          <!-- Icon -->
+          <div class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="mx-auto">
+              <path fill="currentColor"
+                d="m14.5 11l-3 6v-4h-2l3-6v4h2zM17 3H7v1h10V3m0 17H7v1h10v-1m0-19c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h10zM7 18h10V6H7v12z" />
+            </svg>
+          </div>
+          <!-- Icon Text -->
+          <span class="text-white text-xs font-semibold">Mobile recharge</span>
+        </div>
+      </div>
+      <!-- End of GPay icons -->
+
+      <!-- UPI ID -->
+      <div class="flex justify-center mt-6">
+        <span
+          class="text-white text-xs font-semibold bg-neutral-700 px-4 py-2 rounded-full transition 500 hover:cursor-pointer hover:bg-gray-800">UPI
+          ID: mushkirmohamed9611@oksbi</span>
+      </div>
+
+      <!-- People division -->
+      <div class="space-y-4 mt-5">
+        <span class="text-white font-semibold px-5">People</span>
+
+        <!-- People profile -->
+        <div class="grid grid-cols-4">
+          <!-- Anbuselven -->
+          <div class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img src="https://avatars.githubusercontent.com/u/15264938?v=4"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Anbu" />
+
+                <!-- Right side top corner round shape -->
+                <div class="bg-sky-300 w-2 h-2 rounded-full absolute top-0.5 right-0.5"></div>
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Anbuselven</span>
+          </div>
+
+          <!-- Lokesh -->
+          <div class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img src="https://pbs.twimg.com/profile_images/1638896466482831360/DWhvPS9A_400x400.jpg"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Lokesh" />
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Lokesh Kanagaraj</span>
+          </div>
+
+          <!-- Actor vijay -->
+          <div class="mx-auto text-center transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img
+                  src="https://m.media-amazon.com/images/M/MV5BZWJlODhlMzctOTU0Yi00MTUwLTkxODYtMDNjNTQxYTI2YTE1XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_.jpg"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Actor Vijay" />
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Vijay</span>
+          </div>
+
+          <!-- John Dhurairaj -->
+          <div class="mx-auto transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img src="https://ui-avatars.com/api/?name=John+Doe" class="w-10 h-10 object-cover rounded-full mx-auto"
+                  alt="John Dhurairaj" />
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">John Dhurairaj</span>
+          </div>
+
+          <!-- Trisha -->
+          <div class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Tisha_Krishnan_at_PS1_pre_release_event_%281%29.jpg"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Trisha" />
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Trisha Krishnan</span>
+          </div>
+
+          <!-- Samantha -->
+          <div class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img
+                  src="https://m.economictimes.com/thumb/msid-95819207,width-1599,height-1066,resizemode-4,imgsize-30466/samantha-sridevi-movies-yashoda-movie-releasing-on-november-11th-2022.jpg"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Samantha" />
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Samantha</span>
+          </div>
+
+          <!-- Vadivelu -->
+          <div class="mx-auto mt-5 transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div class="relative w-11 h-11 pt-1">
+                <img src="https://static.toiimg.com/photo/msid-76976026/76976026.jpg"
+                  class="w-10 h-10 object-cover rounded-full mx-auto" alt="Vadivelu" />
+
+                <!-- Right side top corner round shape -->
+                <div class="bg-sky-300 w-2 h-2 rounded-full absolute top-0.5 right-0.5"></div>
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">Vadivelu</span>
+          </div>
+
+          <!-- More -->
+          <div class="mx-auto mt-5 text-center transition 500 hover:cursor-pointer hover:-translate-y-1">
+            <!-- Profile picture -->
+            <div class="flex justify-center">
+              <div
+                class="relative w-11 h-11 border rounded-full border-sky-300 pt-1 text-sky-300 flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Profile name -->
+            <span class="text-white text-xs font-semibold text-center">More</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business -->
+      <div class="mt-10 flex items-center justify-between px-5 pb-8">
+        <span class="text-white font-semibold">Businesses</span>
+        <button class="text-white bg-blue-800 px-3 py-1.5 w-32 rounded-full">
+          <i class="fa-solid fa-bag-shopping"></i> &nbsp; Explore
+        </button>
+      </div>
+
+      <!--  -->
     </div>
-  </body>
+    <!-- End of Right side -->
+  </div>
+</body>
+
 </html>
